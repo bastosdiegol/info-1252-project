@@ -8,13 +8,12 @@
 }
 
 body {
-  font-family: "Work Sans", sans-serif;
-  /* font-family: 'Alex Brush', cursive; */
+  font-family: "Roboto", sans-serif;
   color: #686868;
 }
 
 h1 {
-  font-size: 4.8rem;
+  font-size: 3.6rem;
 }
 
 h2 {
@@ -30,3 +29,11 @@ strong {
 .clear {
   clear: both;
 }
+
+/* Google Fonts */
+/* 
+font-family: 'Alex Brush', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Spline Sans Mono', monospace;
+font-family: 'Work Sans', sans-serif;
+*/
