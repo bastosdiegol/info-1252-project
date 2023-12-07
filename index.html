@@ -13,19 +13,55 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" type="text/css" href="./styles/base.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/header.css" />
     <link rel="stylesheet" type="text/css" href="./styles/main.css" />
     <link rel="stylesheet" type="text/css" href="./styles/animations.css" />
+    <script src="./scripts/events.js"></script>
     <title>Diego Bastos</title>
   </head>
   <body>
     <!-- Header -->
     <header>
-      <!--temp style-->
-      <nav style="display: none">
-        <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+      <div class="header-wrapper">
+        <div class="logo-wrapper">
+          <p class="logo">DB</p>
+          <p class="website-name">&NonBreakingSpace; | Diego Bastos</p>
+        </div>
+        <button id="toggleMenuButton" class="nav-button">
+          <svg
+            width="24px"
+            height="24px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4 18L20 18"
+              stroke="#fff"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M4 12L20 12"
+              stroke="#fff"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+            <path
+              d="M4 6L20 6"
+              stroke="#fff"
+              stroke-width="2"
+              stroke-linecap="round"
+            />
+          </svg>
+          Menu
+        </button>
+      </div>
+      <nav>
+        <ul id="menuList" class="menu fade-out">
+          <a href="#" class="menu-link"><li>Home</li></a>
+          <a href="#" class="menu-link"><li>Projects</li></a>
+          <a href="#" class="menu-link"><li>Contact</li></a>
         </ul>
       </nav>
     </header>

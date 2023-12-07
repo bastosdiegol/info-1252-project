@@ -1,0 +1,48 @@
+/* Header */
+.header-wrapper {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(43, 42, 76);
+  color: rgb(238, 226, 222);
+  padding: 0 1rem;
+}
+
+.logo-wrapper {
+  display: flex;
+  padding: 1rem;
+}
+
+.logo {
+  font-family: "Alex Brush", cursive;
+}
+
+.nav-button {
+  background-color: unset;
+  border: unset;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  list-style: none;
+  background-color: rgb(43, 42, 76);
+}
+
+.menu li {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.menu-link {
+  font-size: 2.4rem;
+  text-decoration: none;
+  color: rgb(238, 226, 222);
+}
