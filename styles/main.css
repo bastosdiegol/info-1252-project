@@ -15,7 +15,7 @@
 
 .hero-text {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 0;
   transform: translateY(-50%);
   width: 100%;
@@ -34,11 +34,23 @@
   display: flex;
   gap: 2px;
   color: rgb(143, 144, 153);
+  font-style: italic;
 }
 
 .hello-world {
+  margin: 0 5px;
   font-family: "Spline Sans Mono", monospace;
+  font-weight: bold;
+  font-style: normal;
   color: white;
+}
+
+.name {
+  color: white;
+}
+
+.full-name {
+  color: rgb(234, 144, 108);
 }
 
 .presentation {
