@@ -45,6 +45,22 @@
   color: rgb(223, 224, 233);
 }
 
+.arrow-down {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+.arrow-down svg {
+  display: block;
+  margin: 0 auto;
+}
+
 /* Education Section */
 
 .education {
