@@ -1,23 +1,32 @@
 /* Main */
 
+/* Hero Section */
 .hero {
-  background-image: url("../images/mohammad-rahmani-yRsBZJuhbkk-unsplash-alt.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/mohammad-rahmani-yRsBZJuhbkk-unsplash-alt.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
-  padding: 0 1rem;
+  padding: 1rem 0 1rem;
+  position: relative;
 }
 
 .hero-text {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   font-family: "Work Sans", sans-serif;
-  gap: 5px;
+  gap: 30px;
   color: white;
 }
 
@@ -34,4 +43,18 @@
 
 .presentation {
   color: rgb(223, 224, 233);
+}
+
+/* Education Section */
+
+.education {
+  width: auto;
+  height: 200px;
+}
+
+/* Projects Section */
+
+.projects {
+  width: auto;
+  height: 200px;
 }
