@@ -31,7 +31,14 @@ h3 {
 
 p,
 strong,
-span {
+span,
+legend,
+label,
+input,
+select,
+option,
+textarea,
+button {
   font-size: 1.8rem;
 }
 

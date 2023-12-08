@@ -31,6 +31,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   color: white;
+  cursor: pointer;
   z-index: 1;
 }
 
@@ -46,6 +47,7 @@
   display: flex;
   justify-content: center;
   margin: 1rem 0;
+  z-index: 1;
 }
 
 .menu-link {

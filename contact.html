@@ -14,7 +14,7 @@
     />
     <link rel="stylesheet" type="text/css" href="./styles/base.css" />
     <link rel="stylesheet" type="text/css" href="./styles/header.css" />
-    <link rel="stylesheet" type="text/css" href="./styles/main.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/contact.css" />
     <link rel="stylesheet" type="text/css" href="./styles/footer.css" />
     <link rel="stylesheet" type="text/css" href="./styles/animations.css" />
     <script src="./scripts/events.js" defer></script>
@@ -70,7 +70,7 @@
             <a href="./index.html#projects" class="menu-link">Projects</a>
           </li>
           <li>
-            <a href="#" class="menu-link" download>
+            <a href="./resources/placeholder.pdf" class="menu-link" download>
               <svg
                 width="24px"
                 height="24px"
@@ -101,7 +101,59 @@
       </nav>
     </header>
     <!-- Main -->
-    <main></main>
+    <main>
+      <section class="contact">
+        <form>
+          <fieldset>
+            <legend>&NonBreakingSpace;Contact Form:&NonBreakingSpace;</legend>
+            <!-- Input: Name -->
+            <label for="fullname">Full Name:</label>
+            <input
+              type="text"
+              name="fullname"
+              id="fullname"
+              placeholder="Your full name"
+              required
+            />
+            <!-- Input: Email -->
+            <label for="name">Email:</label>
+            <input
+              type="text"
+              name="email"
+              id="email"
+              placeholder="name@domain.com"
+              required
+            />
+            <!-- Input: Phone -->
+            <label for="phone">Phone Contact:</label>
+            <input type="tel" name="phone" id="phone" />
+            <!-- Input: Subject -->
+            <label for="subject">Select Subject:</label>
+            <select id="subject" name="subject" required>
+              <option value="" disabled>Select a Subject</option>
+              <option value="general">General Inquiry</option>
+              <option value="quotation" selected>Project Quotation</option>
+              <option value="collaboration">Collaboration Opportunity</option>
+              <option value="feedback">Feedback</option>
+            </select>
+            <!-- Input: Project File -->
+            <label for="file">Project Information:</label>
+            <input type="file" name="file" id="file" />
+            <!-- Input: Deadline -->
+            <label for="deadline">Project Deadline:</label>
+            <input type="date" name="deadline" id="deadline" />
+            <!-- Input: Message -->
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" cols="30" rows="5"></textarea>
+            <!-- Buttons -->
+            <div class="buttons">
+              <button type="submit" class="send">Send</button>
+              <button type="reset" class="clear">Clear</button>
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
     <!-- Footer -->
     <footer>
       <p>Diego Bastos - <span id="year"></span></p>

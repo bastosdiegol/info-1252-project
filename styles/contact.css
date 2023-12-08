@@ -1,0 +1,70 @@
+/* Contact Main */
+
+.contact {
+  display: flex;
+  width: 100%;
+  height: auto;
+  padding: 3rem 1rem;
+  z-index: 2;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+fieldset {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+}
+
+input::placeholder {
+  color: lightslategray;
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  gap: 1rem;
+}
+
+button {
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.send {
+  color: white;
+  background-color: rgb(51, 102, 153);
+  border: 1px solid rgb(51, 102, 153);
+}
+
+.send:hover {
+  background-color: white;
+  color: rgb(51, 102, 153);
+}
+
+.clear {
+  color: white;
+  background-color: rgb(51, 102, 153);
+  border: 1px solid rgb(51, 102, 153);
+}
+
+.clear:hover {
+  background-color: white;
+  color: rgb(51, 102, 153);
+}

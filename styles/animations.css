@@ -41,3 +41,10 @@
   opacity: 0;
   max-height: 0;
 }
+
+/* Form Buttons Animation */
+
+.send,
+.clear {
+  transition: all 1s ease;
+}
