@@ -7,6 +7,12 @@
   padding: 0 1rem;
 }
 
+.link-logo {
+  text-decoration: unset;
+  color: white;
+  z-index: 1;
+}
+
 .logo-wrapper {
   display: flex;
   padding: 1rem;
