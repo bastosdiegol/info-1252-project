@@ -25,7 +25,7 @@
       <div class="header-wrapper">
         <div class="logo-wrapper">
           <p class="logo">DB</p>
-          <p class="website-name">&NonBreakingSpace; | Diego Bastos</p>
+          <p class="website-name">&nbsp; | Diego Bastos</p>
         </div>
         <button id="toggleMenuButton" class="nav-button">
           <svg
@@ -59,11 +59,11 @@
       </div>
       <nav>
         <ul id="menuList" class="menu fade-out">
-          <a href="#" class="menu-link"><li>Home</li></a>
-          <a href="#" class="menu-link"><li>Education</li></a>
-          <a href="#" class="menu-link"><li>Projects</li></a>
-          <a href="#" class="menu-link" download>
-            <li>
+          <li><a href="#" class="menu-link">Home</a></li>
+          <li><a href="#" class="menu-link">Education</a></li>
+          <li><a href="#" class="menu-link">Projects</a></li>
+          <li>
+            <a href="#" class="menu-link" download>
               <svg
                 width="24px"
                 height="24px"
@@ -86,10 +86,10 @@
                   stroke-linejoin="round"
                 />
               </svg>
-              &NonBreakingSpace;Resume
-            </li>
-          </a>
-          <a href="#" class="menu-link"><li>Contact</li></a>
+              &NonBreakingSpace;Resume</a
+            >
+          </li>
+          <li><a href="#" class="menu-link">Contact</a></li>
         </ul>
       </nav>
     </header>
@@ -114,7 +114,7 @@
             I'm also a programmer and game developer on the free time.
           </p>
         </div>
-        <a href="#education" class="arrow-down">
+        <a href="#education" class="arrow-down" title="Education Anchor">
           <svg
             fill="#fff"
             version="1.1"
@@ -142,8 +142,189 @@
           </svg>
         </a>
       </section>
-      <section id="education" class="education"></section>
-      <section class="projects"></section>
+      <!-- Education Secion -->
+      <section id="education" class="education">
+        <div class="section-title-wrapper">
+          <svg
+            fill="#000000"
+            width="44px"
+            height="44px"
+            viewBox="-4 0 32 32"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12.188 7.844l12.188 4.875-12.188 4.844-9.094-3.625c-0.563 0.469-0.969 1.219-1.031 2.063h0.219c0.25 0 0.438 0.188 0.438 0.438v1.156c0 0.25-0.188 0.438-0.438 0.438h-0.156l0.594 6.063c0.031 0.25-0.156 0.469-0.406 0.469h-1.094c-0.25 0-0.438-0.219-0.438-0.469l0.625-6.063h-0.156c-0.25 0-0.469-0.188-0.469-0.438v-1.156c0-0.25 0.219-0.438 0.469-0.438h0.344c0.063-0.906 0.469-1.688 1.031-2.25l-2.625-1.031zM11.844 18.438l0.344 0.125 0.344-0.125 6.688-2.688 0.5 5.531c0.031 0.375-0.219 0.531-0.563 0.375l-2.625-1.344c-0.344-0.188-0.906-0.156-1.219 0.031l-2.531 1.438c-0.313 0.188-0.875 0.188-1.188 0l-2.531-1.438c-0.313-0.188-0.875-0.219-1.188-0.031l-2.656 1.344c-0.344 0.188-0.594 0-0.563-0.375l0.5-5.531z"
+            ></path>
+          </svg>
+          <h1><span class="section-title">Education</span></h1>
+        </div>
+        <article class="education-artcile web-dev">
+          <div class="education-name-wrapper">
+            <div class="education-icon">
+              <svg
+                width="44px"
+                height="44px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="16"
+                  r="3"
+                  stroke="#1C274D"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M12 19.2599L9.73713 21.4293C9.41306 21.74 9.25102 21.8953 9.1138 21.9491C8.80111 22.0716 8.45425 21.9667 8.28977 21.7C8.21758 21.583 8.19509 21.3719 8.1501 20.9496C8.1247 20.7113 8.112 20.5921 8.07345 20.4922C7.98715 20.2687 7.80579 20.0948 7.57266 20.0121C7.46853 19.9751 7.3442 19.963 7.09553 19.9386C6.65512 19.8955 6.43491 19.8739 6.31283 19.8047C6.03463 19.647 5.92529 19.3145 6.05306 19.0147C6.10913 18.8832 6.27116 18.7278 6.59523 18.4171L8.07345 16.9999L9.1138 15.9596"
+                  stroke="#1C274D"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M12 19.2599L14.2629 21.4294C14.5869 21.7401 14.749 21.8954 14.8862 21.9492C15.1989 22.0717 15.5457 21.9668 15.7102 21.7001C15.7824 21.5831 15.8049 21.372 15.8499 20.9497C15.8753 20.7113 15.888 20.5921 15.9265 20.4923C16.0129 20.2688 16.1942 20.0949 16.4273 20.0122C16.5315 19.9752 16.6558 19.9631 16.9045 19.9387C17.3449 19.8956 17.5651 19.874 17.6872 19.8048C17.9654 19.6471 18.0747 19.3146 17.9469 19.0148C17.8909 18.8832 17.7288 18.7279 17.4048 18.4172L15.9265 17L15 16.0735"
+                  stroke="#1C274D"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M17.3197 17.9957C19.2921 17.9748 20.3915 17.8512 21.1213 17.1213C22 16.2426 22 14.8284 22 12V9M7 17.9983C4.82497 17.9862 3.64706 17.8897 2.87868 17.1213C2 16.2426 2 14.8284 2 12L2 8C2 5.17157 2 3.75736 2.87868 2.87868C3.75736 2 5.17157 2 8 2L16 2C18.8284 2 20.2426 2 21.1213 2.87868C21.6112 3.36857 21.828 4.02491 21.9239 5"
+                  stroke="#1C274D"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M9 6L15 6"
+                  stroke="#1C274D"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M7 9.5H9M17 9.5H12.5"
+                  stroke="#1C274D"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h2>Internet Applications and Web Development</h2>
+          </div>
+          <div class="education-content">
+            <h3>
+              College Diploma at Fanshawe College -<span class="period">
+                2023 to 2025</span
+              ><span class="attending">&NonBreakingSpace;Attending</span>
+            </h3>
+            <p class="education-skills">Notable Skills Developed:</p>
+            <ul class="skill-list">
+              <li>HTML5</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>Databases</li>
+              <li>Cloud Computing</li>
+            </ul>
+          </div>
+        </article>
+        <article class="education-artcile game-dev">
+          <div class="education-name-wrapper">
+            <div class="education-icon">
+              <svg
+                width="44px"
+                height="44px"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="16"
+                  r="3"
+                  stroke="#1C274D"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M12 19.2599L9.73713 21.4293C9.41306 21.74 9.25102 21.8953 9.1138 21.9491C8.80111 22.0716 8.45425 21.9667 8.28977 21.7C8.21758 21.583 8.19509 21.3719 8.1501 20.9496C8.1247 20.7113 8.112 20.5921 8.07345 20.4922C7.98715 20.2687 7.80579 20.0948 7.57266 20.0121C7.46853 19.9751 7.3442 19.963 7.09553 19.9386C6.65512 19.8955 6.43491 19.8739 6.31283 19.8047C6.03463 19.647 5.92529 19.3145 6.05306 19.0147C6.10913 18.8832 6.27116 18.7278 6.59523 18.4171L8.07345 16.9999L9.1138 15.9596"
+                  stroke="#1C274D"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M12 19.2599L14.2629 21.4294C14.5869 21.7401 14.749 21.8954 14.8862 21.9492C15.1989 22.0717 15.5457 21.9668 15.7102 21.7001C15.7824 21.5831 15.8049 21.372 15.8499 20.9497C15.8753 20.7113 15.888 20.5921 15.9265 20.4923C16.0129 20.2688 16.1942 20.0949 16.4273 20.0122C16.5315 19.9752 16.6558 19.9631 16.9045 19.9387C17.3449 19.8956 17.5651 19.874 17.6872 19.8048C17.9654 19.6471 18.0747 19.3146 17.9469 19.0148C17.8909 18.8832 17.7288 18.7279 17.4048 18.4172L15.9265 17L15 16.0735"
+                  stroke="#1C274D"
+                  stroke-width="1.5"
+                />
+                <path
+                  d="M17.3197 17.9957C19.2921 17.9748 20.3915 17.8512 21.1213 17.1213C22 16.2426 22 14.8284 22 12V9M7 17.9983C4.82497 17.9862 3.64706 17.8897 2.87868 17.1213C2 16.2426 2 14.8284 2 12L2 8C2 5.17157 2 3.75736 2.87868 2.87868C3.75736 2 5.17157 2 8 2L16 2C18.8284 2 20.2426 2 21.1213 2.87868C21.6112 3.36857 21.828 4.02491 21.9239 5"
+                  stroke="#1C274D"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M9 6L15 6"
+                  stroke="#1C274D"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M7 9.5H9M17 9.5H12.5"
+                  stroke="#1C274D"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h2>Game Development - Advanced Programming</h2>
+          </div>
+          <div class="education-content">
+            <h3>
+              Post-graduate Program at Fanshawe College -<span class="period">
+                2022 to 2023</span
+              >
+            </h3>
+            <p class="education-skills">Notable Skills Developed:</p>
+            <ul class="skill-list">
+              <li>C++</li>
+              <li>Game Engine Development</li>
+              <li>Design Patterns</li>
+              <li>Shader Programming</li>
+              <li>Network Programming</li>
+              <li>Multithreading</li>
+              <li>Software Testing</li>
+              <li>FMOD</li>
+            </ul>
+          </div>
+        </article>
+      </section>
+      <!-- Projects Secion -->
+      <section class="projects">
+        <div class="section-title-wrapper">
+          <svg
+            width="44px"
+            height="44px"
+            viewBox="0 0 512 512"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <g
+              id="Page-1"
+              stroke="none"
+              stroke-width="1"
+              fill="none"
+              fill-rule="evenodd"
+            >
+              <g
+                id="Combined-Shape"
+                fill="#000000"
+                transform="translate(64.000000, 34.346667)"
+              >
+                <path
+                  d="M192,7.10542736e-15 L384,110.851252 L384,332.553755 L192,443.405007 L1.42108547e-14,332.553755 L1.42108547e-14,110.851252 L192,7.10542736e-15 Z M42.666,157.654 L42.6666667,307.920144 L170.666,381.82 L170.666,231.555 L42.666,157.654 Z M341.333,157.655 L213.333,231.555 L213.333,381.82 L341.333333,307.920144 L341.333,157.655 Z M192,49.267223 L66.1333333,121.936377 L192,194.605531 L317.866667,121.936377 L192,49.267223 Z"
+                ></path>
+              </g>
+            </g>
+          </svg>
+          <h1><span class="section-title">Projects</span></h1>
+        </div>
+      </section>
     </main>
     <!-- Footer -->
     <footer></footer>

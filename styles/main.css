@@ -50,7 +50,7 @@
 }
 
 .full-name {
-  color: rgb(234, 144, 108);
+  color: rgb(238, 110, 59);
 }
 
 .presentation {
@@ -73,16 +73,94 @@
   margin: 0 auto;
 }
 
-/* Education Section */
+/* Education and Education Section */
 
-.education {
-  width: auto;
-  height: 200px;
+.education,
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 0 1rem;
+  gap: 2rem;
 }
 
-/* Projects Section */
+.section-title-wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
 
-.projects {
-  width: auto;
-  height: 200px;
+.section-title {
+  color: rgb(238, 110, 59);
+  /* color: rgb(234, 144, 108); */
+  border-bottom: 2px solid rgb(179, 19, 18);
+  font-family: "Work Sans", sans-serif;
+  /* text-decoration-line: underline;
+  text-decoration-color: rgb(179, 19, 18); */
+}
+
+.education-artcile {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+}
+
+.education-name-wrapper {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.education-icon {
+  width: 44px;
+  height: 44px;
+}
+
+.education-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding-left: 1rem;
+}
+
+.period {
+  font-size: 1.2rem;
+  font-weight: lighter;
+  color: rgb(179, 19, 18);
+}
+
+.attending {
+  font-size: 1.4rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.education-skills {
+  font-size: 1.4rem;
+}
+
+.skill-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 1rem;
+}
+
+.skill-list li {
+  display: flex;
+  font-size: 1.4rem;
+  white-space: nowrap;
+  color: rgb(51, 102, 153);
+  border: 1px solid rgb(51, 102, 153);
+  /* background-color: #0d6efd; */
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.skill-list li:hover {
+  background-color: rgb(51, 102, 153);
+  color: white;
 }
