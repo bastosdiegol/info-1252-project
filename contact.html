@@ -17,6 +17,7 @@
     <link rel="stylesheet" type="text/css" href="./styles/contact.css" />
     <link rel="stylesheet" type="text/css" href="./styles/footer.css" />
     <link rel="stylesheet" type="text/css" href="./styles/animations.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/queries-tablet.css" />
     <script src="./scripts/events.js" defer></script>
     <script src="./scripts/form.js" defer></script>
     <title>Diego Bastos</title>
@@ -139,7 +140,12 @@
             </select>
             <!-- Input: Project File -->
             <label for="file" id="file-label">Project Information:</label>
-            <input type="file" name="file" id="file" />
+            <input
+              type="file"
+              name="file"
+              id="file"
+              accept=".pdf, .doc, .docx"
+            />
             <!-- Input: Deadline -->
             <label for="deadline" id="deadline-label">Project Deadline:</label>
             <input type="date" name="deadline" id="deadline" />

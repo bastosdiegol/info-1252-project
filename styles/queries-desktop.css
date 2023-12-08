@@ -1,0 +1,30 @@
+/* Desktop (1200+ x N pixels) */
+@media only screen and (min-width: 75rem) {
+  .education {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .articles-wrapper {
+    display: flex;
+    width: 90%;
+    gap: 2rem;
+  }
+
+  .education-article {
+    width: 50%;
+    border: unset;
+  }
+
+  .proj-content-text {
+    display: flex;
+    margin-top: 5rem;
+    gap: 5rem;
+  }
+
+  footer {
+    justify-content: space-between;
+    padding: 2rem 5rem;
+  }
+}

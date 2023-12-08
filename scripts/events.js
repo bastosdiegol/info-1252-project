@@ -15,6 +15,16 @@ addEventListener("load", (event) => {
     menu.classList.toggle("fade-in");
     menu.classList.toggle("fade-out");
   });
+  // Gets the window width
+  const screenWidth = window.innerWidth;
+  console.log(screenWidth);
+  // Validates the min-width
+  if (screenWidth >= 768) {
+    // Sets the Menu as active
+    menu.style.display = "flex";
+    menu.classList.remove("fade-out");
+    menu.classList.add("fade-in");
+  }
 });
 
 // Sets the current year in the footer

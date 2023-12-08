@@ -1,0 +1,77 @@
+/* iPad Air (768 x 1180 pixels) */
+@media only screen and (min-width: 48rem) {
+  header {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-button {
+    display: none;
+  }
+
+  .menu {
+    flex-direction: row;
+    gap: 2rem;
+    margin-right: 2rem;
+  }
+
+  .menu li {
+    padding-right: 2rem;
+    border-right: 1px dotted white;
+  }
+
+  .menu li:last-child {
+    border-right: unset;
+  }
+
+  .education,
+  .projects {
+    width: 90%;
+    margin: 3rem auto;
+  }
+
+  .menu-link {
+    display: flex;
+    font-size: 1.4rem;
+  }
+
+  .project-content {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+
+  .proj-content-text {
+    display: flex;
+    margin-top: 2rem;
+    width: 55%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .proj-content-images {
+    display: flex;
+    margin-top: 2rem;
+    width: 45%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .proj-content-images figure {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer {
+    justify-content: space-between;
+    padding: 2rem 3rem;
+  }
+}

@@ -1,8 +1,13 @@
 /* Header */
+
+header {
+  background-color: rgb(43, 42, 76);
+}
+
 .header-wrapper {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  background-color: rgb(43, 42, 76);
   color: rgb(238, 226, 222);
   padding: 0 1rem;
 }
