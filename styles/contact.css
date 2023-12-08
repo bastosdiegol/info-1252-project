@@ -8,6 +8,10 @@
   z-index: 2;
 }
 
+.contact-img {
+  display: none;
+}
+
 form {
   display: flex;
   width: 100%;

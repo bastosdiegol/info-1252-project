@@ -18,6 +18,11 @@
     <link rel="stylesheet" type="text/css" href="./styles/footer.css" />
     <link rel="stylesheet" type="text/css" href="./styles/animations.css" />
     <link rel="stylesheet" type="text/css" href="./styles/queries-tablet.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./styles/queries-desktop.css"
+    />
     <script src="./scripts/events.js" defer></script>
     <script src="./scripts/form.js" defer></script>
     <title>Diego Bastos</title>
@@ -128,7 +133,12 @@
             />
             <!-- Input: Phone -->
             <label for="phone">Phone Contact:</label>
-            <input type="tel" name="phone" id="phone" />
+            <input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="+1 (555) 555-5555"
+            />
             <!-- Input: Subject -->
             <label for="subject">Select Subject:</label>
             <select id="subject" name="subject" required>
@@ -156,6 +166,7 @@
               id="message"
               cols="30"
               rows="5"
+              placeholder="Write your message here."
               required
             ></textarea>
             <!-- Buttons -->
@@ -165,6 +176,13 @@
             </div>
           </fieldset>
         </form>
+        <figure>
+          <img
+            class="contact-img"
+            src="./images/volodymyr-hryshchenko-V5vqWC9gyEU-unsplash.jpg"
+            alt="Contact Image"
+          />
+        </figure>
       </section>
     </main>
     <!-- Footer -->
