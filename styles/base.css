@@ -30,7 +30,8 @@ h3 {
 }
 
 p,
-strong {
+strong,
+span {
   font-size: 1.8rem;
 }
 

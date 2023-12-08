@@ -13,3 +13,5 @@ addEventListener("load", (event) => {
     menu.classList.toggle("fade-out");
   });
 });
+
+document.getElementById("year").textContent = new Date().getFullYear();
